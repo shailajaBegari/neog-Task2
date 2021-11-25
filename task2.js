@@ -1,7 +1,7 @@
 
 var readline=require("readline-sync");
 const chalk = require('chalk');
-
+console.log(chalk.bold.yellowBright("***THIS IS ABOUT  GENRAL KNWOLEDGE QUESTIONS***"))
 var username=readline.question(chalk.bold.bgRedBright("WHATS YOUR NAME:"))
 var score=0
 console.log(chalk.bold.redBright(" WELLCOME TO  NEOG CAMP  "+chalk.bgCyanBright(username)))
