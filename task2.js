@@ -1,7 +1,7 @@
 
 var readline=require("readline-sync");
 const chalk = require('chalk');
-console.log(chalk.bold.yellowBright("***THIS IS ABOUT  GENRAL KNWOLEDGE QUESTIONS***"))
+console.log(chalk.bold.yellowBright("🤹🏾 🤹🏾***THIS IS ABOUT  GENRAL KNWOLEDGE QUESTIONS***🤹🏾 🤹🏾"))
 var username=readline.question(chalk.bold.bgRedBright("WHATS YOUR NAME:"))
 var score=0
 console.log(chalk.bold.redBright(" WELLCOME TO  NEOG CAMP  "+chalk.bgCyanBright(username)))
@@ -12,12 +12,12 @@ function check(question,answer,options){
 }
   var useranswer=readline.questionInt(chalk.bold.magentaBright("Select your options:"))
   if (useranswer===currentquestion.answer){
-    console.log(chalk.bold.green("you are right**"))
-    console.log(chalk.bold.green("***CONGRATS***"))
+    console.log(chalk.bold.green("👏you are right**"))
+    console.log(chalk.bold.green("👍***CONGRATS*** 👏"))
     score++
   }
   else{
-    console.log(chalk.bold.redBright("you are wrong"))
+    console.log(chalk.bold.redBright("👎you are wrong👎"))
   }
     console.log(chalk.bold.redBright(" your currentscore "+score))
     console.log(chalk.yellow("**************"))
@@ -64,7 +64,7 @@ var scorebank=[
 for (var i=0;i<scorebank.length;i++){
 console.log(chalk.bold.cyan(scorebank[i].name,scorebank[i].score))
 }
-console.log(chalk.bold.magentaBright("If your get  high score send me a screenshot"))
+console.log(chalk.bold.magentaBright(" 🤳 If your get  high score send me a screenshot 🤳"))
 
 
 
